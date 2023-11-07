@@ -18,7 +18,7 @@ nohup python main.py > nohup.out &
 tail -f -n 10 nohup.out
 ```
 
-`config/exclusive_words.txt`には除外するURLに含まれる文字列を入力する。
+`config/excluded_words.txt`には除外するURLに含まれる文字列を入力する。
 
 ## 保存される情報
 - ContractInfoテーブル
